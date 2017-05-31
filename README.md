@@ -7,7 +7,7 @@
 
 `$ npm install react-native-dtmf --save`
 
-### Mostly automatic installation
+### Automatic installation
 
 `$ react-native link react-native-dtmf`
 
@@ -22,19 +22,46 @@ dtmf.startTone(dtmf.DTMF_2);
 setTimeout(() => {
   dtmf.stopTone();
 }, 300);
-
 ```
-### Manual installation
+### API
 
+Function | Description
+--- | ---
+startTone(tone) | This method starts the playback of a tone of the specified type for a maximum of 5 seconds.
+playTone(tone, duration) | This method starts the playback of a tone of the specified type for the specified duration (milliseconds).
+stopTone() | This method stops the tone currently playing playback.
 
-#### iOS
+### Constants
+
+| Constant | Digit | Tone             |
+| -------- | ----- | ---------------- |
+| DTMF_0   | 0     | 941 Hz + 1336 Hz |
+| DTMF_1   | 1     | 697 Hz + 1209 Hz |
+| DTMF_2   | 2     | 697 Hz + 1336 Hz |
+| DTMF_3   | 3     | 697 Hz + 1477 Hz |
+| DTMF_4   | 4     | 770 Hz + 1209 Hz |
+| DTMF_5   | 5     | 770 Hz + 1336 Hz |
+| DTMF_6   | 6     | 770 Hz + 1477 Hz |
+| DTMF_7   | 7     | 852 Hz + 1209 Hz |
+| DTMF_8   | 8     | 852 Hz + 1336 Hz |
+| DTMF_9   | 9     | 852 Hz + 1477 Hz |
+| DTMF_A   | A     | 697 Hz + 1633 Hz |
+| DTMF_B   | B     | 770 Hz + 1633 Hz |
+| DTMF_C   | C     | 852 Hz + 1633 Hz |
+| DTMF_D   | D     | 941 Hz + 1633 Hz |
+| DTMF_S   | *     | 941 Hz + 1209 Hz |
+| DTMF_P   | #     | 941 Hz + 1477 Hz |
+
+## Manual installation
+
+### iOS
 
 1. In XCode, in the project navigator, right click `Libraries` ➜ `Add Files to [your project's name]`
 2. Go to `node_modules` ➜ `react-native-dtmf` and add `RNDtmf.xcodeproj`
 3. In XCode, in the project navigator, select your project. Add `libRNDtmf.a` to your project's `Build Phases` ➜ `Link Binary With Libraries`
 4. Run your project (`Cmd+R`)<
 
-#### Android
+### Android
 
 1. Open up `android/app/src/main/java/[...]/MainActivity.java`
   - Add `import ca.bigdata.voice.dtmf.BigDataDTMFPackage;` to the imports at the top of the file

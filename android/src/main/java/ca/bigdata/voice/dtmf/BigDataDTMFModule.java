@@ -54,8 +54,13 @@ public class BigDataDTMFModule extends ReactContextBaseJavaModule {
   }
 
   @ReactMethod
+  public void playTone(int tone, int duration) {
+    mToneGenerator.startTone(tone, duration);
+  }
+
+  @ReactMethod
   public void startTone(int tone) {
-    mToneGenerator.startTone(tone);
+    mToneGenerator.startTone(tone, 5000);
   }
 
   @ReactMethod
