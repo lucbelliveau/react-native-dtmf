@@ -27,9 +27,9 @@ setTimeout(() => {
 
 Function | Description
 --- | ---
-startTone(tone) | This method starts the playback of a tone of the specified type for a maximum of 5 seconds.
-playTone(tone, duration) | This method starts the playback of a tone of the specified type for the specified duration (milliseconds).
-stopTone() | This method stops the tone currently playing playback.
+<nobr>**startTone**(*tone*)</nobr> | This method starts the playback of a tone of the specified type for a maximum of 5 seconds.
+<nobr>**playTone**(*tone*, *durationMs*)</nobr> | This method starts the playback of a tone of the specified type for the specified duration.
+<nobr>**stopTone**()</nobr> | This method stops the tone currently playing playback.
 
 ### Constants
 
