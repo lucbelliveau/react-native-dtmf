@@ -11,6 +11,19 @@
 
 `$ react-native link react-native-dtmf`
 
+## Usage
+```javascript
+import dtmf from 'react-native-dtmf';
+
+// Start playing back the tone corresponding to the number "2".
+dtmf.startTone(dtmf.DTMF_2);
+
+// 300ms later stop the tone.
+setTimeout(() => {
+  dtmf.stopTone();
+}, 300);
+
+```
 ### Manual installation
 
 
@@ -35,18 +48,4 @@
   	```
       compile project(':react-native-dtmf')
   	```
-
-## Usage
-```javascript
-import dtmf from 'react-native-dtmf';
-
-// Start playing back the tone corresponding to the number "2".
-dtmf.startTone(dtmf.DTMF_2);
-
-// 300ms later stop the tone.
-setTimeout(() => {
-  dtmf.stopTone();
-}, 300);
-
-```
   
