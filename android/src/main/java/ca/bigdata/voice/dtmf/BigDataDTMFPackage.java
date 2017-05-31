@@ -1,5 +1,5 @@
 
-package com.reactlibrary;
+package ca.bigdata.voice.dtmf;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -10,10 +10,10 @@ import com.facebook.react.bridge.NativeModule;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.uimanager.ViewManager;
 import com.facebook.react.bridge.JavaScriptModule;
-public class RNDtmfPackage implements ReactPackage {
+public class BigDataDTMFPackage implements ReactPackage {
     @Override
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
-      return Arrays.<NativeModule>asList(new RNDtmfModule(reactContext));
+      return Arrays.<NativeModule>asList(new BigDataDTMFModule(reactContext));
     }
 
     @Override

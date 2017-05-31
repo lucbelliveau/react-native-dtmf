@@ -1,6 +1,6 @@
 
 import { NativeModules } from 'react-native';
 
-const { RNDtmf } = NativeModules;
+const { RNBDVDTMF } = NativeModules;
 
-export default RNDtmf;
+export default RNBDVDTMF;
