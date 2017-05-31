@@ -1,6 +1,8 @@
 
 # react-native-dtmf
 
+        WIP: Not yet working
+
 ## Getting started
 
 `$ npm install react-native-dtmf --save`
