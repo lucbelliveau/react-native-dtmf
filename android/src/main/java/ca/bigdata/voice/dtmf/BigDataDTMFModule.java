@@ -28,7 +28,7 @@ public class BigDataDTMFModule extends ReactContextBaseJavaModule {
 
   @Override
   public String getName() {
-    return "RNBDVDTMF";
+    return "RNDtmf";
   }
 
   @Override
