@@ -4,6 +4,10 @@
   "version": "1.0.0",
   "description": "React Native library capable of generating DTMF tones",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lucbelliveau/react-native-dtmf"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
