@@ -31,24 +31,24 @@ Function | Description
 
 ### Constants
 
-| Constant | Digit | Tone             |
-| -------- | ----- | ---------------- |
-| DTMF_0   | 0     | 941 Hz + 1336 Hz |
-| DTMF_1   | 1     | 697 Hz + 1209 Hz |
-| DTMF_2   | 2     | 697 Hz + 1336 Hz |
-| DTMF_3   | 3     | 697 Hz + 1477 Hz |
-| DTMF_4   | 4     | 770 Hz + 1209 Hz |
-| DTMF_5   | 5     | 770 Hz + 1336 Hz |
-| DTMF_6   | 6     | 770 Hz + 1477 Hz |
-| DTMF_7   | 7     | 852 Hz + 1209 Hz |
-| DTMF_8   | 8     | 852 Hz + 1336 Hz |
-| DTMF_9   | 9     | 852 Hz + 1477 Hz |
-| DTMF_A   | A     | 697 Hz + 1633 Hz |
-| DTMF_B   | B     | 770 Hz + 1633 Hz |
-| DTMF_C   | C     | 852 Hz + 1633 Hz |
-| DTMF_D   | D     | 941 Hz + 1633 Hz |
-| DTMF_S   | *     | 941 Hz + 1209 Hz |
-| DTMF_P   | #     | 941 Hz + 1477 Hz |
+| Constant            | Digit | Tone             |
+| ------------------- | ----- | ---------------- |
+| DTMF_0              | 0     | 941 Hz + 1336 Hz |
+| DTMF_1              | 1     | 697 Hz + 1209 Hz |
+| DTMF_2              | 2     | 697 Hz + 1336 Hz |
+| DTMF_3              | 3     | 697 Hz + 1477 Hz |
+| DTMF_4              | 4     | 770 Hz + 1209 Hz |
+| DTMF_5              | 5     | 770 Hz + 1336 Hz |
+| DTMF_6              | 6     | 770 Hz + 1477 Hz |
+| DTMF_7              | 7     | 852 Hz + 1209 Hz |
+| DTMF_8              | 8     | 852 Hz + 1336 Hz |
+| DTMF_9              | 9     | 852 Hz + 1477 Hz |
+| DTMF_A              | A     | 697 Hz + 1633 Hz |
+| DTMF_B              | B     | 770 Hz + 1633 Hz |
+| DTMF_C              | C     | 852 Hz + 1633 Hz |
+| DTMF_D              | D     | 941 Hz + 1633 Hz |
+| DTMF_S / DTMF_STAR  | *     | 941 Hz + 1209 Hz |
+| DTMF_P / DTMF_POUND | #     | 941 Hz + 1477 Hz |
 
 ## Manual installation
 
