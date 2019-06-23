@@ -1,6 +1,6 @@
 {
   "name": "react-native-dtmf",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "React Native library capable of generating DTMF tones",
   "main": "index.js",
   "repository": {
@@ -20,6 +20,6 @@
   "author": "Luc Belliveau",
   "license": "MIT",
   "peerDependencies": {
-    "react-native": "^0.41.2"
+    "react-native": "~0.59.9"
   }
 }
