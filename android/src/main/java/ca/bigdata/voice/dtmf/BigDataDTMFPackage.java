@@ -16,7 +16,6 @@ public class BigDataDTMFPackage implements ReactPackage {
       return Arrays.<NativeModule>asList(new BigDataDTMFModule(reactContext));
     }
 
-    @Override
     public List<Class<? extends JavaScriptModule>> createJSModules() {
       return Collections.emptyList();
     }
