@@ -6,13 +6,13 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                   RNDtmf
                    DESC
-  s.homepage     = ""
+  s.homepage     = "homepage"
   s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   s.author             = { "author" => "author@domain.cn" }
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/author/RNDtmf.git", :tag => "master" }
-  s.source_files  = "RNDtmf/**/*.{h,m}"
+  s.source_files = "*.{h,m}"
   s.requires_arc = true
 
 
@@ -21,4 +21,3 @@ Pod::Spec.new do |s|
 
 end
 
-  
