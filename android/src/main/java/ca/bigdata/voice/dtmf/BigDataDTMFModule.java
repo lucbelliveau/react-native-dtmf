@@ -23,7 +23,7 @@ public class BigDataDTMFModule extends ReactContextBaseJavaModule {
 
   private ToneGenerator mToneGenerator= new ToneGenerator(
     AudioManager.STREAM_DTMF,
-    ToneGenerator.MAX_VOLUME / 3
+    ToneGenerator.MAX_VOLUME / 2
   );
 
   @Override
